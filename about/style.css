@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section h2 {
+  color: #f00; /* Warna merah terang */
+  text-transform: uppercase;
+}
+.section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.management {
+  text-align: center;
+  margin-top: 30px;
+}
+.management img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.management h3 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* CSS untuk video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
