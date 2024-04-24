@@ -9,14 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-      <nav class="navbar bg-dark">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 fs-1 h1 text-uppercase text-white">nerv glorious</span>
-          <a href="../../index.html" class="fs-2 text-decoration-none"><i class="bi bi-house"></i></a>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand fs-1 h1 text-uppercase">nerv glorius</span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../about/">About</a>
+          <a href="../info/">Info</a>
+          <a href="../profile">Profile</a>
         </div>
-      </nav>
-    </div>
+        <span onclick="openNav()">open</span>
+        <!-- <a href="../index.html" class="fs-2 text-decoration-none"><i class="bi bi-house"></i></a> -->
+      </div>
+    </nav>
   
     <div class="container">
         <!-- Video Intro -->
