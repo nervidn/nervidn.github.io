@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="../profile/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../assets/bootstrap/bootstrap-icons.min.css">
 </head>
 <body>
@@ -14,7 +14,16 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <span class="navbar-brand fs-1 h1 text-uppercase">ns</span>
-      <a href="../index.html" class="fs-2 text-decoration-none"><i class="bi bi-house"></i></a>
+      <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+      </div>
+      
+      <span onclick="openNav()">open</span>
+      <!-- <a href="../index.html" class="fs-2 text-decoration-none"><i class="bi bi-house"></i></a> -->
     </div>
   </nav>
   
@@ -121,5 +130,6 @@
   </div>
   
   <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
