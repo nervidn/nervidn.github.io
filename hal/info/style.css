@@ -1,10 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    width: 97%; /* Ubah ukuran card menjadi sekitar 95% dari lebar layar */
+    height: 300px;
+    background-color: #333333; /* Ubah warna card dengan saturasi yang berbeda */
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-top: 10px; /* Tambah sedikit space di luar card */
+    position: relative; /* Menambahkan posisi relatif */
+  }
+  .list {
+    overflow: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .list-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+  }
+  .list-item .text {
+    margin-right: 10%;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .card-header img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  
+  .separator {
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 10px;
+  }
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
