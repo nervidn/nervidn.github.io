@@ -1,13 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background-color: #fff;
     color: #fff;
     margin: 0;
     padding: 0;
   }
-  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .card {
-    width: 97%; /* Ubah ukuran card menjadi sekitar 95% dari lebar layar */
+    width: 96%; /* Ubah ukuran card menjadi sekitar 95% dari lebar layar */
     height: 300px;
     background-color: #333333; /* Ubah warna card dengan saturasi yang berbeda */
     border-radius: 15px;
@@ -15,7 +19,8 @@ body {
     box-sizing: border-box;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     color: white;
-    margin-top: 10px; /* Tambah sedikit space di luar card */
+    margin-top: 10px;
+    /* Tambah sedikit space di luar card */
     position: relative; /* Menambahkan posisi relatif */
   }
   .list {
@@ -40,7 +45,7 @@ body {
   .card-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 5px;
   }
   
   .card-header img {
@@ -100,4 +105,9 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+@media screen and (min-width: 920px) {
+  .list-item .text {
+    margin-right: 15rem;
+  }
 }
