@@ -6,21 +6,35 @@
     <title>Minigame</title>
     <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Selamat datang </h1>
-        <div class="game-container">
-            <a href="./a/" class="game">
-                <img src="../../assets/images/ff.png" alt="Game 1">
-                Guess the Number Game
-               </im
-            </a>
-            <a href="./snake/" class="game">
-                <img src="icon_game_2.png" alt="Game 2">
-                Snake
-            </a>
-        </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-brand fs-1 h1 text-uppercase">nerv glorius</span>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../../">Home</a>
+        <a href="../about/">About</a>
+        <a href="../info/">Info</a>
+        <a href="../profile">Profile</a>
+      </div>
+      <span onclick="openNav()"><i class="bi bi-list text-white" style="font-size: 2rem"></i></span>
+      <!-- <a href="../index.html" class="fs-2 text-decoration-none"><i class="bi bi-house"></i></a> -->
     </div>
+  </nav>
+  
+  <div class="container">
+    <h1>Selamat datang </h1>
+      <div class="game-container">
+        <a href="./a/" class="game">
+        <img src="../../assets/images/ff.png" alt="Game 1">Guess the Number Game</a>
+        <a href="./snake/" class="game">
+         <img src="icon_game_2.png" alt="Game 2">Snake</a>
+        </div>
+  </div>
+  <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
