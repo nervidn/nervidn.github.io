@@ -11,8 +11,8 @@ body {
     align-items: center;
   }
   .card {
-    width: 96%; /* Ubah ukuran card menjadi sekitar 95% dari lebar layar */
-    height: 300px;
+    width: 98vw; /* Ubah ukuran card menjadi sekitar 95% dari lebar layar */
+    height: 46vh;
     background-color: #333333; /* Ubah warna card dengan saturasi yang berbeda */
     border-radius: 15px;
     padding: 20px;
@@ -24,10 +24,11 @@ body {
     position: relative; /* Menambahkan posisi relatif */
   }
   .list {
-    overflow: auto;
+    overflow-y: scroll;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-left: 3px;
   }
   .list-item {
     display: flex;
@@ -40,7 +41,7 @@ body {
     margin-right: 5%;
   }
   .list-item .text {
-    margin-right: 10%;
+    margin-right: 1rem;
   }
   .card-header {
     display: flex;
@@ -106,8 +107,19 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 760px) {
   .list-item .text {
-    margin-right: 15rem;
+    margin-right: 10rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .list-item .text {
+    margin-right: 18rem;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .list-item .text {
+    margin-right: 30rem;
+  }
+}
+
