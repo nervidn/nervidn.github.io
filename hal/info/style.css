@@ -112,6 +112,11 @@ body {
     margin-right: 10rem;
   }
 }
+@media screen and (min-width: 860px) {
+  .list-item .text {
+    margin-right: 20rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   .list-item .text {
     margin-right: 18rem;
